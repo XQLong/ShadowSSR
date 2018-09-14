@@ -1,0 +1,21 @@
+2018-09-14 09:32:05 [scrapy.core.scraper] ERROR: Error processing {}
+Traceback (most recent call last):
+  File "E:\machine_learning\Anaconda\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\machine_learning\workplace\ShadowSSR\shadowsocks\pipelines.py", line 15, in process_item
+    f.write(str(dict_data['ssURL'][0])+'\n')
+KeyError: 'ssURL'
+2018-09-14 09:32:05 [scrapy.core.scraper] ERROR: Error processing {}
+Traceback (most recent call last):
+  File "E:\machine_learning\Anaconda\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\machine_learning\workplace\ShadowSSR\shadowsocks\pipelines.py", line 15, in process_item
+    f.write(str(dict_data['ssURL'][0])+'\n')
+KeyError: 'ssURL'
+2018-09-14 09:32:13 [scrapy.core.scraper] ERROR: Error processing {}
+Traceback (most recent call last):
+  File "E:\machine_learning\Anaconda\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\machine_learning\workplace\ShadowSSR\shadowsocks\pipelines.py", line 15, in process_item
+    f.write(str(dict_data['ssURL'][0])+'\n')
+KeyError: 'ssURL'
