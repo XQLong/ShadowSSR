@@ -12,5 +12,6 @@ class ShadowsocksPipeline(object):
         print("pipline存储数据:"+ spider.name)
         dict_data = dict(item)
         with open('SSR.txt', 'a') as f:
-            f.write(str(dict_data['ssURL'][0])+'\n')
+            if len(dict_data)>0:
+                f.write(str(dict_data['ssURL'][0])+'\n')
         return item
